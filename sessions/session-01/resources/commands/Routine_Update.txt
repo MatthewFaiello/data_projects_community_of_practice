@@ -1,0 +1,16 @@
+Routine title update reference
+
+Use after initial setup, saving the title edit and testing the app.
+Run in the Terminal from the app project root, one step at a time.
+
+git status
+git remote -v
+git diff -- global.R
+git add global.R
+git diff --cached -- global.R
+git commit -m "Label FAFSA app as practice"
+git push
+git status
+git rev-parse HEAD
+
+Review the diff before committing and compare the result with the latest commit in the intended GitHub repository. The SOP pack covers errors and existing histories.

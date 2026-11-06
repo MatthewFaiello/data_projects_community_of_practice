@@ -1,0 +1,24 @@
+Deployment request template
+
+Subject: Deploy [APP NAME] from DDOE GitLab
+
+Hi [DEPLOYMENT OWNER]!
+
+Could you deploy [APP NAME] from this GitLab repository?
+
+GitLab repository: [URL]
+Branch: [BRANCH]
+Commit: [FULL HASH]
+GitHub source: [URL]
+Target URL or server folder: [TARGET]
+Requested action: [INITIAL DEPLOYMENT OR REFRESH]
+
+Required R packages: [PACKAGE LIST]
+App input files: [FILES]
+Server or persistence requirements: [DETAILS IF APPLICABLE]
+Local verification performed: [CHECKS]
+
+Thank you!
+[NAME]
+
+After deployment, record the deployed version and check the target app.

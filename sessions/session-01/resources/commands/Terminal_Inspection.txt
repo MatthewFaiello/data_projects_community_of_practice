@@ -1,0 +1,18 @@
+Terminal inspection reference
+
+PowerShell folder check:
+Get-Location
+
+macOS, Linux or Git Bash folder check:
+pwd
+
+Git checks in either shell:
+git --version
+git status
+git rev-parse --show-toplevel
+
+When a repository exists:
+git remote -v
+git log -1 --oneline
+
+The clean starter initially has no Git repository. Read the participant guide before initialization. Confirm the reported root and destination before changing repository settings.

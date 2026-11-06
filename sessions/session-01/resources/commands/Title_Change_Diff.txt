@@ -1,0 +1,14 @@
+Actual local Git output for the training title edit
+Command: git diff --unified=2 -- global.R
+
+diff --git a/global.R b/global.R
+index ef5fb07..482c592 100644
+--- a/global.R
++++ b/global.R
+@@ -27,5 +27,5 @@ library(scales)
+ # >>> EDIT HERE >>>
+ # Start here for simple wording changes that are reused across the app.
+-APP_TITLE <- "FAFSA Completion"
++APP_TITLE <- "FAFSA Completion - Practice"
+ 
+ LABELS <- 
